@@ -1,0 +1,18 @@
+server:
+  port: 80
+
+token:
+  crm:
+    secret: ponloo
+    exp: exp
+    payload: payload
+    time: 21600000
+    heard: XToken
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  messages:
+    encoding: UTF-8
